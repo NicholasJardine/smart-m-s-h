@@ -77,6 +77,12 @@
  }
 
 
+* h1,h2,h3,h4,h5,h6{
+  font-family: "Oswald";
+  font-weight:500;
+ }
+
+
 .footer {
   background: black;
   display: flex;
@@ -103,3 +109,6 @@
   opacity: 1;
 }
 
+.navbar-item{
+  color:red;
+}
