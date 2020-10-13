@@ -71,3 +71,35 @@
        justify-content: center;
       align-content: start;
 }
+* {
+  font-family: "Oswald";
+  font-weight:500;
+ }
+
+
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  justify-content: space-around;
+  padding: 0px 50px;
+  color: red;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.footer-links a {
+  color: red;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
