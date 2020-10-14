@@ -16,7 +16,7 @@
 
 <div class="col-8" style="padding-top: 40px;">
 
-              <p style="text-align:left; padding-top: 64px; justify-content: center;  color: black;">We instill Fundamental Skills within impoverished communities like Eldoradopark and it's surrounding areas.Through a variety of training programmes, as well as jump start job creation initiatives and basic skills develpoment programmes we aim to alleviate poverty and uplift our community. Be part of our Women in Construction Programmes. Some of our training programmes include : Soft skills development, Entrepreneurship Programmes, Bricklaying (Masonry), Plastering & Tiling , Roof Finishing,Carpentry, Plumbing, Welding, Electronics.</p>
+              <p style="text-align:left; padding-top: 64px; justify-content: center;  color: black;">We instill Fundamental Skills within impoverished communities like Eldoradopark and it's surrounding areas. We aim to alleviate poverty and uplift our community through a variety of training programmes, as well as jump start job creation initiatives and basic skills develpoment programmes. Be part of our Women in Construction Programmes. Some of our training programmes include : Soft skills development, Entrepreneurship Programmes, Bricklaying (Masonry), Plastering & Tiling , Roof Finishing,Carpentry, Plumbing, Welding, Electronics.</p>
 
 
 </div>
@@ -37,27 +37,52 @@
 
     <h1 class="mb-5" style="text-align: center; color:white; position:relative; margin:0 auto; padding-top: 88px; padding-bottom: 88px;"> OUR PROGRAMMES</h1>
   <div class="articles-grid">
+
+    <%= link_to carpentry_path do %>
   <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "woodwork.jpeg" %>)">
   Carpentry
 </div>
+<% end %>
+
+    <%= link_to plumbing_path do %>
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "plumbing.jpeg" %>)">
   Plumbing
 </div>
+<% end %>
+
+<%= link_to welding_path do %>
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "welding.jpeg" %>)">
   Welding
 </div>
+<% end %>
+
+    <%= link_to entrepeneurship_path do %>
+
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "entrepeneur.jpeg" %>)">
   Entrepeneurship
 </div>
+<% end %>
+
+    <%= link_to electronics_path do %>
+
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "electronics.jpeg" %>)">
   Electronics
 </div>
+<% end %>
+
+    <%= link_to bricks_path do %>
+
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "brick-masonry.jpeg" %>)">
   Brick Laying/Masonry
 </div>
+<% end %>
+
+    <%= link_to roof_path do %>
+
 <div class="card-category " style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path "roof.jpeg" %>)">
   Roof Finishing
 </div>
+<% end %>
   </div>
 
   </div>

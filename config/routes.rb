@@ -11,6 +11,8 @@ Rails.application.routes.draw do
     get 'softskills', to: 'pages#softskills'
     get 'welding', to: 'pages#welding'
     get 'electronics', to: 'pages#electronics'
+    get 'bricks', to: 'pages#bricks'
+    get 'plumbing', to: 'pages#plumbing'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

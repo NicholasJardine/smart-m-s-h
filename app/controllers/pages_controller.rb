@@ -38,4 +38,7 @@ class PagesController < ApplicationController
   def welding
   end
 
+  def bricks
+  end
+
 end
