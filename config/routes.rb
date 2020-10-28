@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get 'about', to: 'pages#about'
     get 'contact', to: 'pages#contact'
     get 'home', to: 'pages#home'
+    get 'donations', to: 'pages#donations'
     get 'tiles', to: 'pages#tiles'
     get 'roof', to: 'pages#roof'
     get 'entrepeneurship', to: 'pages#entrepeneurship'
