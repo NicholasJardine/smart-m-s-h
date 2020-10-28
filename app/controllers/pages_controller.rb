@@ -41,4 +41,9 @@ class PagesController < ApplicationController
   def bricks
   end
 
+
+  def donations
+
+  end
+
 end
