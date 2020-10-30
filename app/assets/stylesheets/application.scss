@@ -12,6 +12,7 @@
 @import "components/index";
 @import "pages/index";
 @import "pages/carpentry";
+@import "pages/experiment";
 
 
 .banner {
@@ -118,4 +119,43 @@
 .banpic{
   position: relative; margin:0 auto;
   border:solid 4px;
+}
+
+
+.grey-1{
+  background-color:#A7A8AA;
+}
+
+
+.container-2{
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+      background-color:#A7A8AA;
+
+}
+
+.container-3{
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:black;
+
+}
+
+
+@media(max-width: 992px) {
+  .articles-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
 }

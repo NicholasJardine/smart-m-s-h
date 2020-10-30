@@ -45,5 +45,8 @@ class PagesController < ApplicationController
   def donations
 
   end
+  def experiment
+
+  end
 
 end
