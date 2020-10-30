@@ -12,6 +12,7 @@
 @import "components/index";
 @import "pages/index";
 @import "pages/carpentry";
+@import "pages/experiment";
 
 
 .banner {
@@ -118,4 +119,9 @@
 .banpic{
   position: relative; margin:0 auto;
   border:solid 4px;
+}
+
+
+.grey-1{
+  background-color:#A7A8AA;
 }
