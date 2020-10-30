@@ -146,3 +146,16 @@
     background-color:black;
 
 }
+
+
+@media(max-width: 992px) {
+  .articles-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+}
